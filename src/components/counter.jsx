@@ -31,7 +31,7 @@ import React, { Component } from 'react';
 
     formatCount(){ 
         const {count} = this.state;
-        return count === 0 ? "On zero" : count;
+        return count === 0 ? "zero" : count;
     }
 }
 
